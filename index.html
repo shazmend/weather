@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <video autoplay loop muted class="back-video">
+        <source src="weather.MOV" type="video/mp4">
+    </video>
+    <div class="header-container">
+        <div class="searchFeald">
+            <input id="inputcity" type="text" >
+            <button onclick="getCity()"><span class="material-symbols-outlined">search</span></button>
+        </div>
+    </div>
+    
+    <div class="firstSection">
+        <div class="city">
+            <h3 id="city">--</h3>
+            <p id="date">---</p>
+            <img id="weatherImg" width="100vh">
+        </div>
+        <div class="temp">
+            <h1 id="temp">--</h1>
+        </div>
+    </div>
+
+    <div class="gridDetails">
+        <div class="tempMax">
+            <h4>Maximum temperature</h4>
+            <p id="maxTemp">--</p>
+        </div>
+        <div class="tempMin">
+            <h4>Minimum temperature</h4>
+            <p id="minTemp">--</p>
+        </div>
+        <div class="feelLike">
+            <h4>Feel like</h4>
+            <p id="feelLike">--</p>
+        </div>
+    </div>
+    <hr>
+
+    <div class="secondSection">
+        <div class="Humidity">
+            <img src="humidity.svg">
+            <div class="humidityText">
+                <p>Humidity</p>
+                <h4 id="humidity">--</h4>
+            </div>
+        </div>
+        <div class="windSpeed">
+            <img src="wind.svg">
+            <div class="windText">
+                <p>Wind Speed</p>
+                <h4 id="windSpeed">--</h4>
+            </div>        
+        </div>
+    </div>
+ 
+<script src="main.js"></script>
+</body>
+</html>

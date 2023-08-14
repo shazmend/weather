@@ -15,6 +15,9 @@ body{
     z-index: -1;
     
 }
+.date{
+    display: none;
+}
 .header-container{
     display: flex;
     justify-content: center;

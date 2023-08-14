@@ -122,8 +122,7 @@ hr{
     align-items: center;
 }
 .Humidity img{
-   height: 5vh;
- 
+   display: none;
 }
 .humidityText{
     color: white;
@@ -143,7 +142,7 @@ hr{
     align-items: center;    
 }
 .windSpeed img{
-    height: 6vh;
+    display: none;
  }
  .windText{
     color: white;

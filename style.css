@@ -94,7 +94,6 @@ button{
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
     align-content: center;
-    /* margin-top: 15vh; */
     color: white;
     align-items: center;
 }
@@ -110,7 +109,9 @@ hr{
 }
 
 .secondSection{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3vh;
     justify-content: center;
     justify-content: space-evenly;
     /* margin-top: 8vh;     */
@@ -122,7 +123,7 @@ hr{
 }
 .Humidity img{
    height: 5vh;
-   margin-right: 2vh;
+ 
 }
 .humidityText{
     color: white;
@@ -130,13 +131,10 @@ hr{
 }
 .humidityText p{
     font-size: 25px;
-    position: relative;
+    /* position: relative; */
 }
 .humidityText h4{
     font-size: 30px;
-    position: absolute;
-    top:90%;
-    left:22%;
     text-align: center;
 }
 .windSpeed{
@@ -146,7 +144,6 @@ hr{
 }
 .windSpeed img{
     height: 6vh;
-    margin-right: 2vh;
  }
  .windText{
     color: white;
@@ -154,13 +151,9 @@ hr{
 }
 .windText p{
     font-size: 25px;
-    position: relative;
 }
 .windText h4{
     font-size: 30px;
-    position: absolute;
-    top:90%;
-    right: 5%;
 }
 
 }
